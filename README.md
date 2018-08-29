@@ -4,7 +4,7 @@ Automatic grader for programming assignments.
 ## Running
 - pip install -r requirements.txt
 - python manage.py migrate
-- cp decentsite/local_settings_example.py decentsite/location_settings.py
+- cp decentsite/local_settings_example.py decentsite/local_settings.py
 - python manage.py runserver --settings decentsite.local_settings
 
 ## References
